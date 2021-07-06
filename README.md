@@ -3,10 +3,10 @@
 * Java code to display operations on bank account
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/javafx-observables-tasks?style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/javafx-observables-tasks?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/javafx-observables-tasks?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/javafx-observables-tasks?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/java-section15-challenge1?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/java-section15-challenge1?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/java-section15-challenge1?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/java-section15-challenge1?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -24,7 +24,7 @@
 
 ## :books: General info
 
-* Code from Java Programming Masterclass Section 15-288 - see [:clap: Inspiration](#clap-inspiration) below
+* Code from Java Programming Masterclass Section 15-288 to 15-292 - see [:clap: Inspiration](#clap-inspiration) below
 * [Lock framework](https://www.geeksforgeeks.org/lock-framework-vs-thread-synchronization-in-java/) used instead of synchronized block for increased concurrency and overall performance.
 
 ## :camera: Screenshots
@@ -36,6 +36,7 @@ N/A
 * [Java v11](https://www.java.com/en/)
 * [synchronized method](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html) only one synchronised method can operate on an object block at a time. This makes it thread-safe
 * [Interface Lock](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html) a tool for controlling access to a shared resource by multiple threads.
+* [Enum Timeunit](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html)
 
 ## :floppy_disk: Setup
 

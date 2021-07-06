@@ -26,21 +26,47 @@ public class BankAccount {
 //    }
 
     public void deposit(double amount) {
-        lock.lock();
+
+        boolean status = false;
         try {
-            balance += amount;
-        } finally {
-            lock.unlock();
+            if(lock.tryLock(1000, TimeUnit.MILLISECONDS)) {
+                try {
+                    balance += amount;
+                    status = true;
+                } finally {
+                    lock.unlock();
+                }
+            } else {
+                System.out.println("Could not get the lock");
+            }
+
+        } catch(InterruptedException e) {
+            // do something here
         }
+
+        System.out.println("Transaction status = " + status + ", balance is: " + balance);
     }
 
     public void withdraw(double amount) {
-        lock.lock();
+
+        boolean status = false;
         try {
-            balance -= amount;
-        } finally {
-            lock.unlock();
+            if(lock.tryLock(1000, TimeUnit.MILLISECONDS)) {
+                try {
+                    balance -= amount;
+                    status = true;
+                } finally {
+                    lock.unlock();
+                }
+            } else {
+                System.out.println("Could not get the lock");
+            }
+
+        } catch(InterruptedException e) {
+            // do something here
         }
+
+        System.out.println("Transaction status = " + status + ", balance is: " + balance);
     }
 
     public String getAccountNumber() {
