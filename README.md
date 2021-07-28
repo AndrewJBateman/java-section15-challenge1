@@ -10,7 +10,7 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular Material Table](#zap-angular-material-table)
+* [:zap: Java Section15 Challenge1](#zap-java-section15-challenge1)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
